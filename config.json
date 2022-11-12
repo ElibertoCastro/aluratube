@@ -2,6 +2,48 @@
     "name" : "Eliberto Castro",
     "job" : "Desenvolvedor Fullstack Jr",
     "github" : "ElibertoCastro",
+    "favorites" : [
+      {
+        "at" : "@DevSoutinho",
+        "url" : "DevSoutinho",
+        "avatar" : "https://yt3.ggpht.com/m8Yrqf0Y81L4mZ1Cq7rGnJ4NDHe6729rxiFZvWyy9-xd_Z7Osmza7J8NWpN1axMHcCb1oKJNgA=s176-c-k-c0x00ffffff-no-rj" 
+      },
+      {
+        "at" : "@FilipeDeschamps",
+        "url" : "FilipeDeschamps",
+        "avatar" : "https://yt3.ggpht.com/ytc/AMLnZu9fwc9E-G17B2vMnbYzZBp_NYs4AmCE802y8x08=s176-c-k-c0x00ffffff-no-rj" 
+      },
+      {
+        "at" : "@loianegroner",
+        "url" : "loianegroner",
+        "avatar" : "https://yt3.ggpht.com/ytc/AMLnZu_rVZTkA-_ywLx9cZklf7nyxhkaOwd99oGB-DDtRr0=s176-c-k-c0x00ffffff-no-rj" 
+      },
+      {
+        "at" : "@FabioAkita1990",
+        "url" : "FabioAkita1990",
+        "avatar" : "https://yt3.ggpht.com/ytc/AMLnZu-rihMwxuXoZ2IjdwvfXegytnGVYquLdSBhRf5-ZOM=s176-c-k-c0x00ffffff-no-rj" 
+      },
+      {
+        "at" : "@bsjman",
+        "url" : "bsjman",
+        "avatar" : "https://yt3.ggpht.com/ytc/AMLnZu8TrW6ctfqW3K_P-OimAlp-FCiLMiL4sTqseBPP=s176-c-k-c0x00ffffff-no-rj" 
+      },
+      {
+        "at" : "@codigofontetv",
+        "url" : "codigofontetv",
+        "avatar" : "https://yt3.ggpht.com/ytc/AMLnZu8lUVeJ1TiYevFOzZPNQFEQSDHc-TwiYKMcQpxpvA=s176-c-k-c0x00ffffff-no-rj"
+      },
+      {
+        "at" : "@RocketSeat",
+        "url" : "RocketSeat",
+        "avatar" : "https://yt3.ggpht.com/ytc/AMLnZu9-n9mDtKOwVMx3_-2zr8H57lHFag5t-0JcJNFPUQ=s176-c-k-c0x00ffffff-no-rj"
+      },
+      {
+        "at" : "@Alura",
+        "url" : "Alura",
+        "avatar" : "https://yt3.ggpht.com/xqhIoXspeX7eqouJvNHl1xqpv9213Pl26ENZbuouXxO2RlDadjsveNXfgnj8GTUk7thFYUkVRg=s176-c-k-c0x00ffffff-no-rj"
+      }
+    ],
     "playlists": {
       "jogos": [
           {
