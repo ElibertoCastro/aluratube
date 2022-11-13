@@ -10,8 +10,10 @@ const StyledHeader = styled.div`
         height: 250px;
     }
 
-    @media screen and (min-width: 800px){
-        
+    @media screen and (max-width: 700px){
+        .banner {
+            height: 150px;
+        }
     }
     
     .user-img {
