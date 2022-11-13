@@ -6,9 +6,12 @@ const StyledHeader = styled.div`
     .banner {
         background-image: url("https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
         background-repeat: no-repeat;
-        background-position-y: -250px;
         background-size: cover;
         height: 250px;
+    }
+
+    @media screen and (min-width: 800px){
+        
     }
     
     .user-img {
