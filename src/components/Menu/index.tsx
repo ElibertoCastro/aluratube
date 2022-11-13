@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Search from "./Search";
 
 const StyledMenu = styled.header`
   display: flex;
@@ -38,10 +39,13 @@ function Logo() {
     )
   }
 
-function Menu() {
+function Menu({valorDoFiltro, setValorDoFiltro}) {
     return (
        <StyledMenu>
-            <Logo />
+          <div>
+              <Logo />
+          </div>
+          <Search valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro}/>
        </StyledMenu>
     );
 }

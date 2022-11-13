@@ -61,10 +61,10 @@ function Favorites() {
         <StyledFavs>
             <h2>Youtubers Favoritos</h2>
             <section>
-                {config.favorites.map(youtuber => {
+                {config.favorites.map((youtuber) => {
                     return(
-                        <div className="fav-youtuber">
-                            <a href={`https://www.youtube.com/c/${youtuber.url}`} target={"_blank"}>
+                        <div key={youtuber.url} className="fav-youtuber">
+                            <a  href={`https://www.youtube.com/c/${youtuber.url}`} target={"_blank"}>
                                 <img src={youtuber.avatar} alt={`Foto do ${youtuber.url}`} />
                                 <p>{youtuber.at}</p>
                             </a>

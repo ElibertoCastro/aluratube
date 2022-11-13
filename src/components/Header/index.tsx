@@ -4,7 +4,7 @@ import styled from "styled-components"
 
 const StyledHeader = styled.div`
     .banner {
-        background-image: url("https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+        background-image: url(${({bg})=>bg});
         background-repeat: no-repeat;
         background-size: cover;
         height: 250px;
@@ -34,7 +34,7 @@ const StyledHeader = styled.div`
 
 function Header() {
     return (
-        <StyledHeader>
+        <StyledHeader bg={config.bg}>
             <div className="banner"></div>
             <section className="user-info">
                 <img className="user-img" src={`https://github.com/${config.github}.png`} alt={`foto perfil de ${config.name} github`} />
