@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/components/Menu/ColorModeProvider/index.tsx"  ],
   "exclude": [
     "node_modules"
   ]

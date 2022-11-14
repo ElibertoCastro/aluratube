@@ -3,6 +3,8 @@ import styled from "styled-components"
 
 
 const StyledHeader = styled.div`
+    background-color: ${({ theme }) => theme.backgroundLevel1};
+    
     .banner {
         background-image: url(${({bg})=>bg});
         background-repeat: no-repeat;
@@ -23,7 +25,6 @@ const StyledHeader = styled.div`
     }
 
     .user-info {
-        margin-top: 30px;
         display: flex;
         align-items: center;
         width: 100%;

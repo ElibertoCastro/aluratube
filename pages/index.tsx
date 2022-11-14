@@ -2,7 +2,7 @@ import Header from "../src/components/Header";
 import Timeline from "../src/components/Timeline";
 import Menu from "../src/components/Menu";
 import config from "../config.json";
-import { CSSReset } from "../src/components/CSSReset";
+
 import Favorites from "../src/components/Favorites";
 import { useState } from "react";
 
@@ -12,7 +12,6 @@ function HomePage() {
     
     return (
         <>
-            <CSSReset />
             <div>
                 <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro}/>
                 <Header />

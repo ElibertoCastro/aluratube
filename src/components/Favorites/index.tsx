@@ -38,7 +38,7 @@ const StyledFavs = styled.div`
 
 
     .fav-youtuber a {
-        color: #1d1d1d;
+        color: ${({ theme }) => theme.textColorBase};
         text-decoration: none;
     }
 
